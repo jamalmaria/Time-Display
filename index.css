@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif !important;
+    background-image: url(./Public/Media/bg.jpeg);
+    background-size: cover;
+
+}
+footer{
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: 600;
+}
+.brand-font{
+    font-size: 5em;
+    margin: auto;
+    text-align: center;
+}
+.clock{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35%;
+    font-size: 2em;
+    color: white;
+}
+
+.time{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 100px;
+}
