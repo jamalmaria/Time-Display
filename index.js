@@ -5,9 +5,10 @@ function showClock(){
     clockDiv.style.paddingTop = "25%";
     setInterval(function(){
         var date = new Date();
-        clockDiv.innerHTML = `<h1 class="time"> ${date.getHours()}: ${date.getMinutes()}: ${date.getSeconds()}</h1>`;
-    }
-    );
+        clockDiv.innerHTML = `<h1 class="time">
+          ${date.getDate()}/ ${date.getMonth()}/ ${date.getFullYear()} <br>
+         ${date.getHours()}: ${date.getMinutes()}: ${date.getSeconds()}</h1>`;
+    },1000);
 
 
 }
