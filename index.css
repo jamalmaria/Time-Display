@@ -13,6 +13,7 @@ footer{
     width: 100%;
     color: white;
     font-weight: 600;
+    padding: 20px;
 }
 .brand-font{
     font-size: 5em;
@@ -47,5 +48,8 @@ footer{
 @media only screen and (max-width:479px) {
     .time{
         font-size: 40px;
+    }
+    footer{
+        padding: 15px;
     }
 }
